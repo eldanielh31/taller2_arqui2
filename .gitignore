@@ -1,0 +1,73 @@
+# --- C/C++ build ---
+# directorios de build/bin
+/build/
+/bin/
+/obj/
+/out/
+/lib/
+/dist/
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+*.dSYM/
+*.pch
+*.csv
+*.png
+bench
+
+# dependencias generadas
+*.d
+*.gcno
+*.gcda
+*.gcov
+
+# --- Python (scripts/plot, etc.) ---
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+
+# --- Datos y resultados ---
+/data/*.csv
+/data/*.json
+/data/*.txt
+/plots/*.svg
+# Conserva los PNG finales
+!/plots/*.png
+
+# --- LaTeX temporales ---
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.lol
+*.nav
+*.snm
+*.vrb
+
+# --- Editores/IDE ---
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
