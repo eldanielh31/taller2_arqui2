@@ -1,9 +1,5 @@
 # Taller 02 — Ejecución rápida
 
-Este README contiene **solo** lo necesario para compilar, ejecutar el benchmark y generar la figura con `make`.
-
----
-
 ## 1) Requisitos mínimos
 
 - GNU/Linux (no virtualizado) con **bash**.
